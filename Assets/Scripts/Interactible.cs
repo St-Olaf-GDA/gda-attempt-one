@@ -9,9 +9,13 @@ public class Interactible : MonoBehaviour{
     public GameObject dialogue_text;
     public bool interacting = false;
 
+    [SerializeField] bool level_required = false;
+    public GameObject End_Level_Collider;
+
     void Start() {
         dialogue_panel = Canvas_Main_Script.Dialogue_Panel_Parent;
         dialogue_text = dialogue_panel.transform.Find("Dialogue_Text(TMP)").gameObject;
+        End_Level_Collider = GameObject.Find("End_Level_Collider");
     }
 
     public void Interact() {
@@ -25,6 +29,10 @@ public class Interactible : MonoBehaviour{
                     keep_interacting_status = !keep_interacting_status;
                 }
                 if (keep_interacting_status) { interacting = !interacting; }
+                if (level_required){
+                    level_required = !level_required;
+                    End_Level_Collider.GetComponent<Level_End_Requirements>().met_requirements++;
+                }
                 break;
         }
     }
