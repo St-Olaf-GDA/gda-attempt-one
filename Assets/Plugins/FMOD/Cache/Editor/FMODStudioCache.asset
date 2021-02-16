@@ -232,7 +232,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-7398438768533939918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -256,6 +256,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 750
+--- !u!114 &-7357957271129968493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LevelOneMusic/Progression
+  m_EditorClassIdentifier: 
+  Name: Progression
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-7329066096202914933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -518,7 +538,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/Editor Default Resources/Bank Output/Desktop/Master.bank
   Name: Master
-  lastModified: 637451329995044119
+  lastModified: 637484765807462705
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -685,7 +705,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/Editor Default Resources/Bank Output/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637451329995064137
+  lastModified: 637484765807514113
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -901,7 +921,7 @@ MonoBehaviour:
   - {fileID: -4471852008989255340}
   StringsBanks:
   - {fileID: -2270363969432499553}
-  stringsBankWriteTime: 637451329995064137
+  stringsBankWriteTime: 637484765807514113
   cacheVersion: 5
 --- !u!114 &49431807718555166
 MonoBehaviour:
@@ -923,7 +943,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -7738580941620357730}
+  - {fileID: -7357957271129968493}
   MinDistance: 0
   MaxDistance: 0
   Length: 105404
@@ -1367,7 +1387,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/Editor Default Resources/Bank Output/Desktop/Music.bank
   Name: Music
-  lastModified: 637451329995364410
+  lastModified: 637484765807622904
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -1474,7 +1494,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/Editor Default Resources/Bank Output/Desktop/Player SFX.bank
   Name: Player SFX
-  lastModified: 637451329995564593
+  lastModified: 637484765807642235
   LoadResult: 0
   FileSizes: []
   Exists: 1
