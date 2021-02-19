@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// Initiated by: Soua Yang
+
 public class Game_Pause : MonoBehaviour
 {
     public static bool game_is_paused = false;
