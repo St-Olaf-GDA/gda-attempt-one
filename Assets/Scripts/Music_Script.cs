@@ -8,6 +8,24 @@ public class Music_Script : MonoBehaviour
     public bool audio_mute_request;
 
     public int player_progression; // Keeps where the player is in the level
+    
+    
+    // Updated by Andrew, this makes music persist on reload/death
+    private static Music_Script instance = null;
+    public static Music_Script Instance
+     {
+         get { return instance; }
+     }
+    void Awake()
+     {
+         if (instance != null && instance != this) {
+             Destroy(this.gameObject);
+             return;
+         } else {
+             instance = this;
+         }
+         DontDestroyOnLoad(this.gameObject);
+     }
 
     // Start is called before the first frame update
     void Start(){
