@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-// Modified by: Soua Yang
-
 public class General : MonoBehaviour
 {
     public GameObject player_initializer;

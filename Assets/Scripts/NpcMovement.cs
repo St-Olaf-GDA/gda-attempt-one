@@ -2,8 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// Initiated by: Soua Yang
-
 public class NpcMovement : MonoBehaviour
 {
     public Vector2 origin;
