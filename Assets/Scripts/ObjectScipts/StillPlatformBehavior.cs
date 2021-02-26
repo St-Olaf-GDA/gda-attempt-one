@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DisappearBehavior : MonoBehaviour
+// Initiated By: Soua
+
+public class StillPlatformBehavior : MonoBehaviour
 {
 
     public bool crumble;
