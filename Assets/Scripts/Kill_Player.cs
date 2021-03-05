@@ -28,6 +28,12 @@ public class Kill_Player : MonoBehaviour
         }
     }
 
+    private void OnTriggerExit2D(Collider2D collision) {
+        if (collision.gameObject.name == "Ring") {
+            player_death();
+        }
+    }
+
     void player_death() {
         Scene scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(scene.name);
