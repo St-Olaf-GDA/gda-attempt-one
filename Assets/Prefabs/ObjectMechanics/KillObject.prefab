@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4399002830733411252}
   - component: {fileID: 4399002830733411255}
   - component: {fileID: 4399002830733411254}
+  - component: {fileID: 7229399713941383772}
   m_Layer: 0
   m_Name: KillObject
   m_TagString: Death
@@ -121,3 +122,20 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &7229399713941383772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4399002830733411273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee4d7dc5e3fd8d344964c570cf23309b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spinRadius: 0
+  spinSpeed: 0
+  isSpinning: 0
+  isFalling: 0
+  rb: {fileID: 4399002830733411255}

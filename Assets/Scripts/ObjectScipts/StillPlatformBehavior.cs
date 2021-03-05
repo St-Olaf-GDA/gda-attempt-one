@@ -9,13 +9,17 @@ public class StillPlatformBehavior : MonoBehaviour
 
     public bool crumble;
     public bool destroyOnTouch;
+    [SerializeField] int crumbleTime;
 
     private GameObject player;
 
     private void Start() {
         // If we want the platform to crumble, then we'll also need destroyOnTouch to be true
         // This is just incase we forget to set destroyOnTouch to true
-        if (crumble) destroyOnTouch = true;
+        if (crumble) {
+            destroyOnTouch = true;
+            GetComponent<BoxCollider2D>().sharedMaterial = null;
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision) {
@@ -34,7 +38,7 @@ public class StillPlatformBehavior : MonoBehaviour
 
     IEnumerator Crumble() {
         // We need to have crumbling animation here
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(crumbleTime);
         Destroy(gameObject);
     }
 }

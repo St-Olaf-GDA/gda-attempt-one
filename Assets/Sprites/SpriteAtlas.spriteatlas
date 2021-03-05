@@ -32,7 +32,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 2572c759d79d1a94f800d6d0b7a06971, type: 3}
-    totalSpriteSurfaceArea: 39324619
+    totalSpriteSurfaceArea: 39422923
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -89,6 +89,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 9bb563112d1f29a4aae3429eb1bc58ce, type: 3}
   - {fileID: 21300000, guid: d2d92831a9f48514291d59726f9cf217, type: 3}
   - {fileID: 21300000, guid: 97519a318b8157c42a22d7a5ae64f61e, type: 3}
+  - {fileID: -2413806693520163455, guid: f9d9f541d744e574fb8c31d7618c3abc, type: 3}
   - {fileID: 21300000, guid: d432a051c3c7ddb47ac1d45d4fdece32, type: 3}
   - {fileID: 21300000, guid: 537dd451c681f7442a39abfcd10fdf00, type: 3}
   - {fileID: 21300000, guid: 22c891710277a7442b7704bf76cca515, type: 3}
@@ -352,6 +353,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 596dc347c895a884f9d5f49ba2765997, type: 3}
   - {fileID: 21300000, guid: 2090bd47b23b4a549b7f8a49fbdd8f38, type: 3}
   - {fileID: 21300000, guid: 0ed4f36747f733d4ebddf90a89ee0437, type: 3}
+  - {fileID: 3625043607559282579, guid: 7a907e679a972e14abc9dc774fd2334c, type: 3}
   - {fileID: 21300000, guid: 3bf20887900b90345bc8f3559233f0f5, type: 3}
   - {fileID: 21300000, guid: 2afc5e87cfc79ba45b779333bfb32f7f, type: 3}
   - {fileID: 21300000, guid: 4c17f7973f1c7f94eabe249a3d4a0a49, type: 3}
@@ -844,6 +846,7 @@ SpriteAtlas:
   - level1_bg_placeholder
   - Part 1 (22x22)
   - Brown On (32x8)
+  - Circle
   - Right Hit (42x42)
   - 48
   - Off
@@ -971,7 +974,7 @@ SpriteAtlas:
   - 35
   - Off
   - 21
-  - Trampoline
+  - Square
   - 11
   - Mailboxsprite_lrg
   - Previous
@@ -1107,6 +1110,7 @@ SpriteAtlas:
   - Confetti (16x16)
   - Grey On (32x8)
   - 34
+  - Isometric Diamond
   - Checkpoint (Flag Out) (64x64)
   - 15
   - Mud Particle
