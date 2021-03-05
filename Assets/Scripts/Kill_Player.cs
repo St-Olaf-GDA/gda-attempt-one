@@ -34,7 +34,7 @@ public class Kill_Player : MonoBehaviour
         }
     }
 
-    void player_death() {
+    public void player_death() {
         Scene scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(scene.name);
     }
