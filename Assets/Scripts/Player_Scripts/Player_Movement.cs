@@ -19,6 +19,7 @@ public class Player_Movement : MonoBehaviour
     public float movement_speed;
     public int maxWallJump;
     public int wallJumpsLeft;
+    public int gravityOfPlayer;
     //private float falling_threshold; //the threshold at which the game detects you as falling, not sure if we'll need this or not yet
 
     
@@ -241,7 +242,7 @@ public class Player_Movement : MonoBehaviour
     // dash_stop() - stops the player's dash
     void dash_stop() {
         // dash_timer is determined using physic's velocity formula
-        rigidbody2D.gravityScale = 8;
+        rigidbody2D.gravityScale = gravityOfPlayer;
         is_dashing = false;
     }
 

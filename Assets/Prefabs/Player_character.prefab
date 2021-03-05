@@ -124,6 +124,7 @@ MonoBehaviour:
   movement_speed: 10
   maxWallJump: 1
   wallJumpsLeft: 0
+  gravityOfPlayer: 15
   dash_refreshed: 0
   dash_permissions: 0
   is_dashing: 0
