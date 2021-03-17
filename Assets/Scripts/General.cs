@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-// Modified by: Soua Yang
+// Modified by: Soua Yang, William Gilbert
 
 public class General : MonoBehaviour
 {
     public GameObject player_initializer;
     public GameObject cut_scene_manager;
+    public int gravity_scale = 15;
 
     public static int current_screen;
 
@@ -15,7 +16,9 @@ public class General : MonoBehaviour
     void Start()
     {
         GameObject player_object = Instantiate(player_initializer, new Vector2(-7, 3), Quaternion.identity);
+        //player_object.GetComponent<Rigidbody2D>().gravityScale = gravity_scale;
         player_object.name = "Player";
+        
         current_screen = 0;
     }
 
