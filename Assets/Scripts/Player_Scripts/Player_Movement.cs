@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Initiated by: George
 // Modified by: Soua Yang
 
 public class Player_Movement : MonoBehaviour
@@ -128,7 +129,7 @@ public class Player_Movement : MonoBehaviour
         }
 
         //Check if the player is attempting to jump
-        if (Input.GetButtonDown("Jump")) {
+        if (Input.GetButton("Jump")) {
             simple_movement(0, movement_speed, true);
             dash_stop();
         }

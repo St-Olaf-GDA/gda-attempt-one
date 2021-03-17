@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Talking_NPC
   - Death
+  - Child_of_Interactible
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - Platforms
   - Player
   - Collision-Reliant Moving Platforms
-  - 
+  - Passable_Entities
   - 
   - 
   - 

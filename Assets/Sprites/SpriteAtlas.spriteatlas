@@ -32,7 +32,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 2572c759d79d1a94f800d6d0b7a06971, type: 3}
-    totalSpriteSurfaceArea: 37712712
+    totalSpriteSurfaceArea: 37912712
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -79,6 +79,7 @@ SpriteAtlas:
   - {fileID: 3742457409785570221, guid: 0e3c1320fd5de4746b691e0d1d2b974d, type: 3}
   - {fileID: 21300000, guid: 46104d203a933094998717fef380b42a, type: 3}
   - {fileID: 21300000, guid: 9bb563112d1f29a4aae3429eb1bc58ce, type: 3}
+  - {fileID: 21300000, guid: 2cdcef42669a43743a020febeee48da1, type: 3}
   - {fileID: 9198279215809610640, guid: aad89a52f7b538d4cbb655488c1b86cb, type: 3}
   - {fileID: -6761579220220487573, guid: aad89a52f7b538d4cbb655488c1b86cb, type: 3}
   - {fileID: 8008180454943590053, guid: 76958f62b71807d45b80a7650af6e21a, type: 3}
@@ -513,6 +514,7 @@ SpriteAtlas:
   - Tiles_Caves_Size_500_Percent_9
   - Mailboxsprite2_side_lrg
   - level1_bg_placeholder
+  - George_NPC_Placeholder
   - princess_walking_1
   - princess_walking_0
   - Tiles_Caves_Size_Original_2
