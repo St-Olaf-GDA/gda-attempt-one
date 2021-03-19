@@ -38,6 +38,12 @@ public class Game_Pause : MonoBehaviour
     }
 
     public void debug_player(){
+        if(SaveData.instance.data.level == 2) {
+             SaveData.instance.data.level = 1;
+        } else if(SaveData.instance.data.level == 1) {
+             SaveData.instance.data.level = 2;
+        }
+        SceneChanger.instance.ChangeScene();
         resume_game();
         GameObject.Find("Player").transform.position = new Vector2(-7, 3);
     }
