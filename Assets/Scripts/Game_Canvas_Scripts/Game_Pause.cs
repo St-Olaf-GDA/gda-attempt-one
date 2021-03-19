@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using FMOD.Studio;
+using TMPro;
 
 // Initiated by: Soua Yang
 
@@ -9,6 +11,9 @@ public class Game_Pause : MonoBehaviour
 {
     public static bool game_is_paused = false;
     public GameObject pauseMenu; //Set by UI
+
+    public bool muted = false;
+    public TextMeshProUGUI btn_text;
 
     private void Start() {
         game_is_paused = false;
@@ -48,6 +53,21 @@ public class Game_Pause : MonoBehaviour
         Time.timeScale = 1;
         if (button_activated) { 
             game_is_paused = !game_is_paused;
+        }
+    }
+
+    public void mute() {
+        
+        if (muted) {
+            muted = false;
+            FMODUnity.RuntimeManager.MuteAllEvents(muted);
+            UnityEditor.EditorUtility.audioMasterMute = muted;
+            btn_text.SetText("Unmute");
+        } else {
+            muted = true;
+            FMODUnity.RuntimeManager.MuteAllEvents(muted);
+            UnityEditor.EditorUtility.audioMasterMute = muted;
+            btn_text.SetText("Mute");
         }
     }
 }
