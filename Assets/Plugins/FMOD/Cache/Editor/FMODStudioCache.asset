@@ -598,7 +598,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/Editor Default Resources/Bank Output/Desktop/Master.bank
   Name: Master
-  lastModified: 637516744412131940
+  lastModified: 637516744422303503
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -706,7 +706,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 0
+  Exists: 1
 --- !u!114 &-2765239284924394337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -805,7 +805,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/Editor Default Resources/Bank Output/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637516744412161862
+  lastModified: 637516744422303503
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -1021,7 +1021,7 @@ MonoBehaviour:
   - {fileID: -4471852008989255340}
   StringsBanks:
   - {fileID: -2270363969432499553}
-  stringsBankWriteTime: 637516744412161862
+  stringsBankWriteTime: 637516744422303503
   cacheVersion: 5
 --- !u!114 &49431807718555166
 MonoBehaviour:
@@ -1043,7 +1043,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 5013362323121588766}
+  - {fileID: -3429450120057080872}
   MinDistance: 0
   MaxDistance: 0
   Length: 105404
@@ -1507,7 +1507,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/Editor Default Resources/Bank Output/Desktop/Music.bank
   Name: Music
-  lastModified: 637516744412497685
+  lastModified: 637516744422405025
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -1614,7 +1614,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/Editor Default Resources/Bank Output/Desktop/Player SFX.bank
   Name: Player SFX
-  lastModified: 637516744412537558
+  lastModified: 637516744422415002
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -1683,26 +1683,6 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 51226
---- !u!114 &5013362323121588766
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/LevelOneMusic/Progression
-  m_EditorClassIdentifier: 
-  Name: Progression
-  Min: 0
-  Max: 100
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
 --- !u!114 &5318381604192383980
 MonoBehaviour:
   m_ObjectHideFlags: 0
