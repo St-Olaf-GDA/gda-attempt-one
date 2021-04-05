@@ -49,5 +49,3 @@ crashlytics-build.properties
 Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
 fmod_editor.log
 Packages/packages-lock.json
-fmod_editor.log
-Assets/Scenes/scene1.unity
