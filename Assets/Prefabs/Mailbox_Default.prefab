@@ -11,6 +11,18 @@ GameObject:
   - component: {fileID: 6062339844132246242}
   - component: {fileID: -5783049263239186405}
   - component: {fileID: -5952868903350979308}
+  - component: {fileID: 1073905078}
+  - component: {fileID: 1073905079}
+  - component: {fileID: 2001273699}
+  - component: {fileID: 2001273700}
+  - component: {fileID: 966317233}
+  - component: {fileID: 966317234}
+  - component: {fileID: 447271055}
+  - component: {fileID: 447271056}
+  - component: {fileID: 8715250279700807279}
+  - component: {fileID: 3861470033683628887}
+  - component: {fileID: 7849391710654751986}
+  - component: {fileID: 31237784038654829}
   m_Layer: 0
   m_Name: Mailbox_Default
   m_TagString: Untagged
@@ -27,7 +39,7 @@ Transform:
   m_GameObject: {fileID: 1151753531235568482}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4.03, y: 5.07, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -99,3 +111,171 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.32
+--- !u!114 &1073905078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151753531235568482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9df1e19ab0123b4e9a319cec3e4d14a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1073905079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151753531235568482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c561df419ad8cb243a2517eb3fc54c7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue_panel: {fileID: 0}
+  dialogue_text: {fileID: 0}
+  level_required: 0
+  End_Level_Collider: {fileID: 0}
+--- !u!114 &2001273699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151753531235568482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9df1e19ab0123b4e9a319cec3e4d14a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2001273700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151753531235568482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c561df419ad8cb243a2517eb3fc54c7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue_panel: {fileID: 0}
+  dialogue_text: {fileID: 0}
+  level_required: 0
+  End_Level_Collider: {fileID: 0}
+--- !u!114 &966317233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151753531235568482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9df1e19ab0123b4e9a319cec3e4d14a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &966317234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151753531235568482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c561df419ad8cb243a2517eb3fc54c7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue_panel: {fileID: 0}
+  dialogue_text: {fileID: 0}
+  level_required: 0
+  End_Level_Collider: {fileID: 0}
+--- !u!114 &447271055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151753531235568482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9df1e19ab0123b4e9a319cec3e4d14a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &447271056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151753531235568482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c561df419ad8cb243a2517eb3fc54c7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue_panel: {fileID: 0}
+  dialogue_text: {fileID: 0}
+  level_required: 0
+  End_Level_Collider: {fileID: 0}
+--- !u!114 &8715250279700807279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151753531235568482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9df1e19ab0123b4e9a319cec3e4d14a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3861470033683628887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151753531235568482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c561df419ad8cb243a2517eb3fc54c7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue_panel: {fileID: 0}
+  dialogue_text: {fileID: 0}
+  level_required: 0
+  End_Level_Collider: {fileID: 0}
+--- !u!114 &7849391710654751986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151753531235568482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9df1e19ab0123b4e9a319cec3e4d14a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &31237784038654829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151753531235568482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c561df419ad8cb243a2517eb3fc54c7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue_panel: {fileID: 0}
+  dialogue_text: {fileID: 0}
+  level_required: 0
+  End_Level_Collider: {fileID: 0}
