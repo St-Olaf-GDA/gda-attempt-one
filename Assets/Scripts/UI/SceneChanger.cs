@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 //Made and Updated by Andrew
 public class SceneChanger : MonoBehaviour
 {
+	public static SceneChanger instance = new SceneChanger();
 	public void ChangeScene()
 	{
     //sceneChanger will append this number to the end of

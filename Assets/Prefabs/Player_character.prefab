@@ -119,9 +119,9 @@ MonoBehaviour:
   boxcollider2D: {fileID: 1538987008788299640}
   on_ground: 0
   on_wall: 0
-  jumping_force: 50
+  jumping_force: 60
   feetDist: 0
-  movement_speed: 10
+  movement_speed: 13
   maxWallJump: 1
   wallJumpsLeft: 0
   gravityOfPlayer: 15
