@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 808884347445925986}
   m_Layer: 9
   m_Name: Player_character
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -149,6 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentInteractible: {fileID: 0}
   interact_bubble: {fileID: 0}
+  is_currently_interacting: 0
 --- !u!50 &1538987008788299641
 Rigidbody2D:
   serializedVersion: 4

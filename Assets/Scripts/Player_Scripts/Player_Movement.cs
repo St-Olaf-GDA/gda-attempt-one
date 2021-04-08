@@ -120,7 +120,7 @@ public class Player_Movement : MonoBehaviour
             > Check if D or the Right Key have been pressed (movement to left)*/
     public void check_movement_presses() {
         //Set the player to sprint if they press the Shift Key
-        if (Input.GetKeyDown(KeyCode.RightShift) || Input.GetKeyDown(KeyCode.LeftShift)) {
+/*        if (Input.GetKeyDown(KeyCode.RightShift) || Input.GetKeyDown(KeyCode.LeftShift)) {
             movement_speed += 6f;
         }
 
@@ -128,7 +128,7 @@ public class Player_Movement : MonoBehaviour
         {
             movement_speed -= 6f;
         }
-
+*/
         //Check if the player is attempting to jump
         if (Input.GetButton("Jump")) {
             simple_movement(0, movement_speed, true);
