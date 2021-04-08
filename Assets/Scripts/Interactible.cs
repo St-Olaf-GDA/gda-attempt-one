@@ -10,7 +10,7 @@ public class Interactible : MonoBehaviour{
 
     public GameObject dialogue_panel;
     public GameObject dialogue_text;
-    public bool interacting = false;
+ /*   public bool interacting = false;*/
 
     [SerializeField] bool level_required = false;
     public GameObject End_Level_Collider;
@@ -21,23 +21,33 @@ public class Interactible : MonoBehaviour{
         End_Level_Collider = GameObject.Find("End_Level_Collider");
     }
 
-    public void Interact() {
+    public bool Interact(bool against_interacting) {
         switch (gameObject.tag) {
             case "Talking_NPC":
-                bool keep_interacting_status = false;
-                if (!interacting){
-                    keep_interacting_status = start_dialogue();
+                if (!against_interacting){
+                    against_interacting = start_dialogue();
                 } else {
                     end_dialogue();
-                    keep_interacting_status = !keep_interacting_status;
                 }
-                if (keep_interacting_status) { interacting = !interacting; }
                 if (level_required){
                     level_required = !level_required;
                     End_Level_Collider.GetComponent<Level_End_Requirements>().met_requirements++;
                 }
                 break;
+            /*case "NPC_Interaction_Collider":
+                if (!against_interacting){
+                    keep_interacting_status = start_dialogue();
+                }else{
+                    end_dialogue();
+                }
+                if (level_required)
+                {
+                    level_required = !level_required;
+                    End_Level_Collider.GetComponent<Level_End_Requirements>().met_requirements++;
+                }
+                break;*/
         }
+        return against_interacting;
     }
 
     bool start_dialogue() {

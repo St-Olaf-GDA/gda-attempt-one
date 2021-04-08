@@ -6,7 +6,7 @@ TagManager:
   tags:
   - Talking_NPC
   - Death
-  - Child_of_Interactible
+  - NPC_Interaction_Collider
   layers:
   - Default
   - TransparentFX
