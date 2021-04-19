@@ -32,7 +32,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 2572c759d79d1a94f800d6d0b7a06971, type: 3}
-    totalSpriteSurfaceArea: 39622923
+    totalSpriteSurfaceArea: 42418443
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -403,6 +403,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: b919a1d8123f47f47b4c0c59f8fe6b8c, type: 3}
   - {fileID: 21300000, guid: 849a44d8444e49543876378aacc6f3af, type: 3}
   - {fileID: 21300000, guid: ef123ef8c5e417c4484d12a99b37deaa, type: 3}
+  - {fileID: 21300000, guid: 6023f8094b0131a48b86644c17b27f27, type: 3}
   - {fileID: 21300000, guid: 1aa8c9192ccc7b04d8771e3f9d9bcc0a, type: 3}
   - {fileID: 21300000, guid: 42d23129007e0204daee9883498b6aed, type: 3}
   - {fileID: 21300000, guid: bbb10e39ed0e3584d9eae1f4918c97e5, type: 3}
@@ -1161,6 +1162,7 @@ SpriteAtlas:
   - Mailboxsprite4_lrg
   - Kiwi
   - scene5
+  - bwdmojya54q51
   - 40
   - new5
   - Mailboxsprite2_lrg

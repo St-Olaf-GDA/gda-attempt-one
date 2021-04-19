@@ -21,6 +21,7 @@ public class Player_Movement : MonoBehaviour
     public int maxWallJump;
     public int wallJumpsLeft;
     public int gravityOfPlayer;
+    public bool pawnDashUnlocked;
     //private float falling_threshold; //the threshold at which the game detects you as falling, not sure if we'll need this or not yet
 
     
@@ -48,6 +49,7 @@ public class Player_Movement : MonoBehaviour
     //-----------------------------------------
     //UNITY BUILT-IN FUNCTIONS - START
     void Start(){
+        pawnDashUnlocked = false;
         wallJumpsLeft = maxWallJump;
         facing_right = true;
         on_ground = true;
@@ -153,7 +155,7 @@ public class Player_Movement : MonoBehaviour
             dash_aftertime = Time.time + dash_cooldown;
         }
 
-        if (Input.GetButton("Small_Dash") && dash_refreshed && Time.time > pawn_dash_aftertime) {
+        if (Input.GetButton("Small_Dash") && dash_refreshed && Time.time > pawn_dash_aftertime && pawnDashUnlocked) {
             //pawn_dash_movement(Mathf.Round(horizontal_movement), Mathf.Round(vertical_movement));
             pawn_dash_aftertime = Time.time + pawn_dash_cooldown;
 
