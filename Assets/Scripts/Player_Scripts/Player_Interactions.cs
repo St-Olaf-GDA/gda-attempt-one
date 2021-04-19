@@ -31,6 +31,8 @@ public class Player_Interactions : MonoBehaviour
                 interact_bubble = currentInteractible.transform.Find("Dialogue_Icon").gameObject;
                 interact_bubble.SetActive(true);
                 break;
+            //case "bean":
+                //pawnDashUnlocked = true;
         }
     }
 
