@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // Initiated By: Soua
+//Modified by: William
 
 public class DynamicObjectBehavior : MonoBehaviour
 {
@@ -47,6 +48,12 @@ public class DynamicObjectBehavior : MonoBehaviour
 
         if (collision.gameObject == player) {
             rb.isKinematic = false;
+        }
+
+        //this line I added below may work poorly with future functionality for our dynamic hazard objects. keep an eye on it!
+        if (collision.gameObject.layer == 8)
+        {
+            Destroy(this.gameObject);
         }
     }
 

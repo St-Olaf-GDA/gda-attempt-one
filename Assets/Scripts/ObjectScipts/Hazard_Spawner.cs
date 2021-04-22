@@ -6,6 +6,7 @@ using UnityEngine;
 public class Hazard_Spawner : MonoBehaviour
 {
     public GameObject hazard;
+    public GameObject spawner;
     float timer = 0.0f;
     List<GameObject> hazards;
     // Start is called before the first frame update
@@ -13,7 +14,7 @@ public class Hazard_Spawner : MonoBehaviour
     {
         hazards = new List<GameObject>();
         GameObject tmpObj = Instantiate(hazard);
-        tmpObj.transform.position = this.transform.position;
+        tmpObj.transform.position = spawner.transform.position;
         hazards.Add(tmpObj);
         
     }
@@ -25,9 +26,9 @@ public class Hazard_Spawner : MonoBehaviour
         if (timer > 0.9f) // the rate at which the hazards spawn
         {
             timer = 0.0f;
-            //GameObject tmpObj = Instantiate(hazard);
-            //tmpObj.transform.position = this.transform.position;
-            //hazards.Add(tmpObj);
+            GameObject tmpObj = Instantiate(hazard);
+            tmpObj.transform.position = spawner.transform.position;
+            hazards.Add(tmpObj);
             
 
         }
