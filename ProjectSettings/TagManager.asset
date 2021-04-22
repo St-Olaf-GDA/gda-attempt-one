@@ -7,6 +7,8 @@ TagManager:
   - Talking_NPC
   - Death
   - NPC_Interaction_Collider
+  - Child_of_Interactible
+  - Pawn_Dash_Obtain_Item
   layers:
   - Default
   - TransparentFX

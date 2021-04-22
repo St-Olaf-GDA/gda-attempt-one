@@ -31,8 +31,10 @@ public class Player_Interactions : MonoBehaviour
                 interact_bubble = currentInteractible.transform.Find("Dialogue_Icon").gameObject;
                 interact_bubble.SetActive(true);
                 break;
-            //case "bean":
-                //pawnDashUnlocked = true;
+            case "Pawn_Dash_Obtain_Item":
+                GameObject.Find("Player").GetComponent<Player_Movement>().pawnDashUnlocked = true;
+                Debug.Log("Pawn Dash Obtained!");
+                break;
         }
     }
 
