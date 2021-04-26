@@ -443,6 +443,15 @@ TextureImporter:
   - first:
       213: -9166483627622830739
     second: One_Way_Platform_Stone
+  - first:
+      213: -8004814337585452184
+    second: Bouncy Block
+  - first:
+      213: 3764621628060604632
+    second: BouncyBlock
+  - first:
+      213: 6604877188710848269
+    second: Terrain (16x16)_149
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -3606,7 +3615,7 @@ TextureImporter:
         width: 48
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3614,6 +3623,69 @@ TextureImporter:
       bones: []
       spriteID: d6d6b10f4bb1ac080800000000000000
       internalID: -9166483627622830739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bouncy Block
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 33
+        width: 48
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86be34375cf29e090800000000000000
+      internalID: -8004814337585452184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BouncyBlock
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 32
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d81e46cc6f9e3430800000000000000
+      internalID: 3764621628060604632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain (16x16)_149
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 32
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07d03a1fcc39ab50800000000000000
+      internalID: 6604877188710848269
       vertices: []
       indices: 
       edges: []
