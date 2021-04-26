@@ -32,7 +32,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 2572c759d79d1a94f800d6d0b7a06971, type: 3}
-    totalSpriteSurfaceArea: 42420699
+    totalSpriteSurfaceArea: 42418443
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -603,7 +603,6 @@ SpriteAtlas:
   - {fileID: 2492004042214043949, guid: 6c5a412da06fc214087818a9cee3f061, type: 3}
   - {fileID: 8471289998749917440, guid: 6c5a412da06fc214087818a9cee3f061, type: 3}
   - {fileID: 397718093594370940, guid: 6c5a412da06fc214087818a9cee3f061, type: 3}
-  - {fileID: 6604877188710848269, guid: 6c5a412da06fc214087818a9cee3f061, type: 3}
   - {fileID: -9166483627622830739, guid: 6c5a412da06fc214087818a9cee3f061, type: 3}
   - {fileID: 5394353238224683576, guid: 6c5a412da06fc214087818a9cee3f061, type: 3}
   - {fileID: -2580880771318319752, guid: 6c5a412da06fc214087818a9cee3f061, type: 3}
@@ -630,7 +629,6 @@ SpriteAtlas:
   - {fileID: 2348904716778239224, guid: 6c5a412da06fc214087818a9cee3f061, type: 3}
   - {fileID: 517537040645658821, guid: 6c5a412da06fc214087818a9cee3f061, type: 3}
   - {fileID: -796906297672391504, guid: 6c5a412da06fc214087818a9cee3f061, type: 3}
-  - {fileID: -8004814337585452184, guid: 6c5a412da06fc214087818a9cee3f061, type: 3}
   - {fileID: 8137121077619138534, guid: 6c5a412da06fc214087818a9cee3f061, type: 3}
   - {fileID: 3581976363580684779, guid: 6c5a412da06fc214087818a9cee3f061, type: 3}
   - {fileID: -5145103406855989666, guid: 6c5a412da06fc214087818a9cee3f061, type: 3}
@@ -692,7 +690,6 @@ SpriteAtlas:
   - {fileID: -4745629342412378363, guid: 6c5a412da06fc214087818a9cee3f061, type: 3}
   - {fileID: -557614441817400054, guid: 6c5a412da06fc214087818a9cee3f061, type: 3}
   - {fileID: -130104546997218819, guid: 6c5a412da06fc214087818a9cee3f061, type: 3}
-  - {fileID: 3764621628060604632, guid: 6c5a412da06fc214087818a9cee3f061, type: 3}
   - {fileID: 21300000, guid: 1132a24dfae057f449f61e5cd0ac6095, type: 3}
   - {fileID: 21300000, guid: 370c854df9a79c547a9b0dbb7a56034d, type: 3}
   - {fileID: 21300000, guid: 5041184d76f6c6b4980781c06baee4a7, type: 3}
@@ -1365,7 +1362,6 @@ SpriteAtlas:
   - Terrain (16x16)_1
   - Terrain (16x16)_2
   - Terrain (16x16)_3
-  - Terrain (16x16)_149
   - One_Way_Platform_Stone
   - Terrain (16x16)_138
   - Terrain (16x16)_141
@@ -1392,7 +1388,6 @@ SpriteAtlas:
   - Terrain (16x16)_122
   - Terrain (16x16)_121
   - Terrain (16x16)_120
-  - Bouncy Block
   - Terrain (16x16)_71
   - Terrain (16x16)_70
   - One_Way_Platform_Wood
@@ -1454,7 +1449,6 @@ SpriteAtlas:
   - Terrain (16x16)_119
   - Terrain (16x16)_109
   - Terrain (16x16)_108
-  - BouncyBlock
   - Diaogue_icon
   - Back
   - Gray
