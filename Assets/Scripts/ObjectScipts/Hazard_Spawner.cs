@@ -8,6 +8,7 @@ public class Hazard_Spawner : MonoBehaviour
     public GameObject hazard;
     public GameObject spawner;
     float timer = 0.0f;
+    public float spawnRate = 1.5f;
     List<GameObject> hazards;
     // Start is called before the first frame update
     void Start()
@@ -23,7 +24,7 @@ public class Hazard_Spawner : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        if (timer > 0.9f) // the rate at which the hazards spawn
+        if (timer > spawnRate) // the rate at which the hazards spawn
         {
             timer = 0.0f;
             GameObject tmpObj = Instantiate(hazard);
