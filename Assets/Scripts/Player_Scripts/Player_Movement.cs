@@ -170,7 +170,8 @@ public class Player_Movement : MonoBehaviour
             }
 
             if (!on_ground)  {
-                dash_refreshed = false; //player can not dash again until they collide with the floor
+                //dash_refreshed = false; //player can not dash again until they collide with the floor
+                // Note: 5/3/21: This feature has been disabled for level design purposes. The cooldown should work to stop the player from dashing too much anyway, so I'm not sure we need this mechanic.
             }
         }
 
