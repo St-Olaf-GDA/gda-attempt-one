@@ -125,6 +125,7 @@ MonoBehaviour:
   maxWallJump: 1
   wallJumpsLeft: 0
   gravityOfPlayer: 15
+  pawnDashUnlocked: 0
   dash_refreshed: 0
   dash_permissions: 0
   is_dashing: 0
@@ -134,7 +135,7 @@ MonoBehaviour:
   pawn_dash_distance_default: 5
   pawn_dash_speed: 100
   dash_cooldown: 0.7
-  pawn_dash_cooldown: 0.7
+  pawn_dash_cooldown: 0.65
 --- !u!114 &-2216878036833418598
 MonoBehaviour:
   m_ObjectHideFlags: 0
